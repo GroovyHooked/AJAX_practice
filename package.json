@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "description": "Tuto de requêtes Ajax",
   "main": "main.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "repository": "https://github.com/GroovyHooked/AJAX_practice.git",
+  "author": "Thomas <GroovyHooked@dafrenchie2002@yahoo.fr>"
 }

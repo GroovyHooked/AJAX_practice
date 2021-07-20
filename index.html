@@ -2,12 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Tuto Ajax</title>
   </head>
   <body>
-    <h1>Tuto requêtes Ajax</h1>
-  <script type="text/javascript" src="main.js">
-
-  </script>
+    <div class="container">
+      <h1>Tuto requêtes Ajax</h1>
+        <form class="row" id="userForm">
+          <input type="text" name="firstName" placeholder="Votre prénom">
+          <input type="text" name="lastName" placeholder="Votre nom">
+          <input type="text" name="age" placeholder="Votre âge">
+          <input type="text" name="sex" placeholder="Votre sexe">
+          <input type="submit" name="sub">
+          <span id="error"></span>
+        </form>
+      </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
