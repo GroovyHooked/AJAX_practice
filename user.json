@@ -1,0 +1,15 @@
+[
+  {
+  "user_name": "Thomas",
+  "user_lastname": "Cariot",
+    "test": "true",
+  "user_sex": "Male",
+  "user_age": "42",
+  "user_adress": {
+    "number": "79",
+    "street": "Av Tassigny",
+    "city": "Cannes"
+  },
+  "active": "true"
+  }  
+]
